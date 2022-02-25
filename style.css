@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&family=Inter:wght@300;500;700&family=Manrope:wght@600;800&family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: hsl(240, 38%, 20%);
+}
+.main-container{
+    display: flex;
+    /* height: 100vh;     */
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/pattern-curve.svg) no-repeat;
+    background-position: 0% 100%;
+    position: relative;
+
+}
+.text{
+    position: relative;
+    height: 44%;
+    width: 44%;
+    left: 10%;
+    background: url(./images/pattern-quotes.svg) no-repeat;
+    background-position: 18.5% 2%;
+}
+#description{
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 4.5rem;
+}
+#name{
+    font-size: 20px;
+}
+#position{
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
+    font-size: 20px;
+    margin-left: 0.5rem;
+}
+.image{
+    height: 82.5%;
+    width: 48.95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    background: url(./images/pattern-bg.svg);
+}
+#person-img{
+    border-radius: 7px;
+    width: 78%;
+}
+.btn{
+    width: 115px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: white;
+    align-items: center;
+    border: none;
+    position: absolute;
+    top: 81%;
+    left: 55.6%;
+    box-shadow: 7px 22px 91px 0px hsl(240deg 38% 22% / 60%);
+}
+#next{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+#prev{
+    margin-left: 1rem;
+    cursor: pointer;
+}
